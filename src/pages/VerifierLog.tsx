@@ -1,7 +1,10 @@
 import { FunctionComponent } from "react";
+import { useNavigate } from 'react-router-dom';
+import Dropdown from '../components/Dropdown'
 import "./VerifierLog.css";
 
 const VerifierLog: FunctionComponent = () => {
+  const navigate = useNavigate();
   return (
     <div className="verifier-log">
       <div className="desktop-full-responsive-butt-group">
@@ -414,22 +417,31 @@ const VerifierLog: FunctionComponent = () => {
             />
           </div>
           <img className="frame-item" alt="" src="/group-80.svg" />
-          <div className="pipe-factory-lorem-group">
-            <div className="pipe-factory-lorem1">PIPE FACTORY LOREM</div>
+          <Dropdown className="login-container" value="VERIFIER" />
+          {/* <div className="pipe-factory-lorem-group">
+            <div className="pipe-factory-lorem1">VERIFIER</div>
             <img className="vector-icon3" alt="" src="/vector1.svg" />
-          </div>
+          </div> */}
         </div>
       </div>
       <div className="logo-menu1">
         <img className="rina-logo1" alt="" src="/rina--logo1.svg" />
         <div className="men1">
-          <div className="layoutmenu-voicesdesktop3">
-            <div className="voice3">Homepage</div>
-            <div className="highlight2" />
+          <div className="layoutmenu-voicesdesktop22">
+            <div className="voice12" onClick={() => navigate('/verifier-s1')}>Homepage</div>
+
           </div>
-          <div className="layoutmenu-voicesdesktop3">
-            <div className="voice3">List</div>
-            <div className="highlight3" />
+          <div className="layoutmenu-voicesdesktop13">
+            <div className="voice12" onClick={() => navigate('/verifier-s2')}>Product list</div>
+
+          </div>
+          <div className="layoutmenu-voicesdesktop12">
+            <div className="voice12" onClick={() => navigate('/verifier-s3')}>DDT List</div>
+            <div className="highlight8" />
+
+          </div>
+          <div className="layoutmenu-voicesdesktop12">
+            <div className="voice12">My certificates</div>
           </div>
           <div className="layoutmenu-voicesdesktop5">
             <div className="voice5">Settings</div>
@@ -561,7 +573,9 @@ const VerifierLog: FunctionComponent = () => {
           </div>
         </div>
       </div>
-      <div className="layoutlistconsultant5">
+      <div className="layoutlistconsultant5" onClick={() => {
+        navigate('/verifier-s4')
+      }}>
         <div className="client8">
           <div className="client9">
             <img className="avatar-icon4" alt="" src="/avatar5.svg" />
