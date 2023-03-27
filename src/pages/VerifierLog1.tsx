@@ -1,7 +1,10 @@
 import { FunctionComponent } from "react";
+import { useNavigate } from 'react-router-dom';
+import Dropdown from '../components/Dropdown'
 import "./VerifierLog1.css";
 
 const VerifierLog1: FunctionComponent = () => {
+  const navigate = useNavigate();
   return (
     <div className="verifier-log1">
       <div className="desktop-full-responsive-butt-parent3">
@@ -414,20 +417,28 @@ const VerifierLog1: FunctionComponent = () => {
             />
           </div>
           <img className="frame-child20" alt="" src="/group-80.svg" />
-          <div className="pipe-factory-lorem-container">
-            <div className="pipe-factory-lorem2">PIPE FACTORY LOREM</div>
+          <Dropdown className="login-container" value="VERIFIER" />
+          {/* <div className="pipe-factory-lorem-container">
+            <div className="pipe-factory-lorem2">VERIFIER</div>
             <img className="vector-icon16" alt="" src="/vector1.svg" />
-          </div>
+          </div> */}
         </div>
         <div className="logo-menu6">
           <img className="rina-logo6" alt="" src="/rina--logo6.svg" />
           <div className="men6">
             <div className="layoutmenu-voicesdesktop22">
-              <div className="voice22">Homepage</div>
-              <div className="highlight10" />
+              <div className="voice12" onClick={() => navigate('/verifier-s1')}>Homepage</div>
+              <div className="highlight8" />
+
             </div>
-            <div className="layoutmenu-voicesdesktop23">
-              <div className="voice22">List</div>
+            <div className="layoutmenu-voicesdesktop13">
+              <div className="voice12" onClick={() => navigate('/verifier-s2')}>Product list</div>
+            </div>
+            <div className="layoutmenu-voicesdesktop12">
+              <div className="voice12" onClick={() => navigate('/verifier-s3')}>DDT List</div>
+            </div>
+            <div className="layoutmenu-voicesdesktop12">
+              <div className="voice12">My certificates</div>
             </div>
             <div className="layoutmenu-voicesdesktop23">
               <div className="voice24">Settings</div>
@@ -455,9 +466,10 @@ const VerifierLog1: FunctionComponent = () => {
                     alt=""
                     src="/icon13.svg"
                   />
-                  <div className="testo-da-cercare">
-                    Search by transport document number or product ID number
-                  </div>
+                  <input className="testo-da-cercare" type="text" placeholder="Search by transport number or product ID number" />
+                  {/* <div className="testo-da-cercare">
+                    Search by transport number or product ID number
+                  </div> */}
                 </div>
                 <div className="right-content1">
                   <img className="icon65" alt="" src="/icon14.svg" />
@@ -493,6 +505,207 @@ const VerifierLog1: FunctionComponent = () => {
             </div>
           </div>
         </div>
+        <input className="search-bar" type="text" placeholder="Search by2 transport document number or product ID number" />
+        <div className="search-list">
+          <div className="master-mobile-dropdownful">
+            <div className="container27">
+              <div className="list-container13">
+                <div className="list-wrapper">
+                  <div className="list28">
+                    <div className="search-list-item-avatar">
+                      <div className="txtleft-icon120">
+                        <div className="general-file">
+                          <div className="master6">
+                            <div className="master-container6">
+                              <img
+                                className="image-icon6"
+                                alt=""
+                                src="/image7.svg"
+                              />
+                              <img
+                                className="icon63"
+                                alt=""
+                                src="/icon15.svg"
+                              />
+                              <div className="letter6">
+                                <img
+                                  className="image-icon6"
+                                  alt=""
+                                  src="/portrait1.svg"
+                                />
+                                <div className="mr7">MR</div>
+                              </div>
+                              <div className="overlay6" />
+                            </div>
+                            <img
+                              className="focus-outline-icon6"
+                              alt=""
+                              src="/focus-outline1.svg"
+                            />
+                            <img
+                              className="user-presence-icon6"
+                              alt=""
+                              src="/user-presence1.svg"
+                            />
+                          </div>
+                        </div>
+                        <div className="list-item">
+                          <b>P</b>
+                          <span className="aola">{`aola `}</span>
+                          <b>P</b>
+                          <span className="aola">istoia</span>
+                        </div>
+                      </div>
+                      <div className="label160">PROFILO</div>
+                    </div>
+                    <div className="search-list-item-avatar">
+                      <div className="txtleft-icon120">
+                        <div className="general-file">
+                          <div className="master6">
+                            <div className="master-container6">
+                              <img
+                                className="image-icon6"
+                                alt=""
+                                src="/image8.svg"
+                              />
+                              <img
+                                className="icon63"
+                                alt=""
+                                src="/icon16.svg"
+                              />
+                              <div className="letter6">
+                                <img
+                                  className="image-icon6"
+                                  alt=""
+                                  src="/portrait1.svg"
+                                />
+                                <div className="mr7">MR</div>
+                              </div>
+                              <div className="overlay6" />
+                            </div>
+                            <img
+                              className="focus-outline-icon6"
+                              alt=""
+                              src="/focus-outline1.svg"
+                            />
+                            <img
+                              className="user-presence-icon6"
+                              alt=""
+                              src="/user-presence1.svg"
+                            />
+                          </div>
+                        </div>
+                        <div className="list-item">
+                          <b>P</b>
+                          <span className="aola">ierluigi Rossi</span>
+                        </div>
+                      </div>
+                      <div className="label160">PROFILO</div>
+                    </div>
+                    <div className="search-list-item-icon">
+                      <div className="txtleft-icon120">
+                        <img
+                          className="general-file"
+                          alt=""
+                          src="/general--file.svg"
+                        />
+                        <div className="testo-da-cercare">
+                          <span>Guida a 18 a</span>
+                          <b className="pp">pp</b>
+                          <span> per gli esercenti</span>
+                        </div>
+                      </div>
+                      <div className="label162">DOCUMENTO</div>
+                    </div>
+                    <div className="search-list-item-icon">
+                      <div className="txtleft-icon120">
+                        <img
+                          className="general-file"
+                          alt=""
+                          src="/general--pa.svg"
+                        />
+                        <div className="testo-da-cercare">
+                          <span>{`Comune di `}</span>
+                          <b className="pp">P</b>
+                          <span>isa</span>
+                        </div>
+                      </div>
+                      <div className="label162">AMMINISTRAZIONE</div>
+                    </div>
+                    <div className="search-list-item-icon">
+                      <div className="txtleft-icon120">
+                        <img
+                          className="general-file"
+                          alt=""
+                          src="/general--file.svg"
+                        />
+                        <div className="testo-da-cercare">
+                          <span>{`Linee guida per i cataloghi della `}</span>
+                          <b className="pp">p</b>
+                          <span>ubblica amministrazione</span>
+                        </div>
+                      </div>
+                      <div className="label162">DOCUMENTO</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="search-field-large-with-sh-2">
+        <div className="search-bar">
+          <div className="statusdefault">
+            <div className="main-field1">
+              <div className="text11">
+                <div className="left-content1">
+                  <img
+                    className="navigation-chevron-expand12"
+                    alt=""
+                    src="/icon13.svg"
+                  />
+                  <input className="testo-da-cercare-2" type="text" placeholder="Enter VAT number" />
+                  {/* <div className="testo-da-cercare">
+                    Search by transport number or product ID number
+                  </div> */}
+                </div>
+                <div className="right-content1">
+                  <img className="icon65" alt="" src="/icon14.svg" />
+                  <div className="container24">
+                    <img
+                      className="number-input-arrows2"
+                      alt=""
+                      src="/number-input--arrows.svg"
+                    />
+                    <img
+                      className="number-input-arrows3"
+                      alt=""
+                      src="/number-input--arrows1.svg"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="helper-text1">*Helper text</div>
+            <div className="focus-outline1" />
+            <div className="label158">
+              <div className="pipe-factory-lorem2">Label</div>
+              <div className="info-tooltip">
+                <div className="standard-tooltip">
+                  <div className="pipe-factory-lorem2">Info Tooltip</div>
+                </div>
+                <img
+                  className="general-info-circle"
+                  alt=""
+                  src="/general--info-circle.svg"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <input className="search-bar" type="text" placeholder="Search by2 transport document number or product ID number" />
         <div className="search-list">
           <div className="master-mobile-dropdownful">
             <div className="container27">
@@ -651,7 +864,11 @@ const VerifierLog1: FunctionComponent = () => {
         <div className="right-content2" />
       </div>
       <div className="primary-filled-mini-text-o4">
-        <div className="master-button4">
+        <div className="master-button4"
+          onClick={() => {
+            navigate('/verifier-s4')
+          }}
+        >
           <img
             className="document-iconstext-style8"
             alt=""

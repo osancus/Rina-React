@@ -1,11 +1,14 @@
 import { FunctionComponent } from "react";
+import { useNavigate } from 'react-router-dom';
 import "./VerifierAnonimoDetail1.css";
+import Dropdown from '../components/Dropdown'
 
 const VerifierAnonimoDetail1: FunctionComponent = () => {
+  const navigate = useNavigate();
   return (
     <div className="verifier-anonimo-detail1">
       <div className="layoutsection-title1">
-        <div className="title-section1">
+        <div className="title-section1" onClick={() => window.history.go(-1)}>
           <div className="icon30">
             <div className="icon-name27">arrow_back</div>
           </div>
@@ -430,21 +433,28 @@ const VerifierAnonimoDetail1: FunctionComponent = () => {
             />
           </div>
           <img className="vector-icon6" alt="" src="/vector3.svg" />
-          <div className="login-parent">
+          <Dropdown className="login-container" value="VERIFIER" />
+          {/* <div className="login-parent">
             <div className="login">LOGIN</div>
             <img className="vector-icon7" alt="" src="/vector1.svg" />
-          </div>
+          </div> */}
         </div>
         <div className="logo-menu2">
           <img className="rina-logo2" alt="" src="/rina--logo2.svg" />
           <div className="men2">
-            <div className="layoutmenu-voicesdesktop6">
-              <div className="label45">Homepage</div>
-              <div className="highlight4" />
+            <div className="layoutmenu-voicesdesktop22">
+              <div className="voice12" onClick={() => navigate('/verifier-s1')}>Homepage</div>
+
             </div>
-            <div className="layoutmenu-voicesdesktop6">
-              <div className="label45">List</div>
-              <div className="highlight4" />
+            <div className="layoutmenu-voicesdesktop13">
+              <div className="voice12" onClick={() => navigate('/verifier-s2')}>Product list</div>
+              <div className="highlight8" />
+            </div>
+            <div className="layoutmenu-voicesdesktop12">
+              <div className="voice12" onClick={() => navigate('/verifier-s3')}>DDT List</div>
+            </div>
+            <div className="layoutmenu-voicesdesktop12">
+              <div className="voice12">My certificates</div>
             </div>
             <div className="layoutmenu-voicesdesktop8">
               <div className="voice8">Settings</div>
