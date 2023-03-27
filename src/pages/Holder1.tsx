@@ -1,7 +1,10 @@
 import { FunctionComponent } from "react";
+import { useNavigate } from 'react-router-dom';
+import Dropdown from '../components/Dropdown'
 import "./Holder1.css";
 
 const Holder1: FunctionComponent = () => {
+  const navigate = useNavigate();
   return (
     <div className="holder1">
       <div className="holder-child" />
@@ -418,27 +421,33 @@ const Holder1: FunctionComponent = () => {
             />
           </div>
           <img className="frame-child7" alt="" src="/group-80.svg" />
-          <div className="steel-mill-lorem-group">
-            <div className="steel-mill-lorem1">STEEL MILL LOREM</div>
+          <Dropdown className="login-container" value="HOLDER" />
+          {/* <div className="steel-mill-lorem-group">
+            <div className="steel-mill-lorem1">HOLDER</div>
             <img className="vector-icon14" alt="" src="/vector1.svg" />
-          </div>
+          </div> */}
         </div>
         <div className="logo-menu5">
           <img className="rina-logo5" alt="" src="/rina--logo5.svg" />
+          
           <div className="men5">
-            <div className="layoutmenu-voicesdesktop17">
-              <div className="voice17">Homepage</div>
-              <div className="highlight9" />
-            </div>
-            <div className="layoutmenu-voicesdesktop18">
-              <div className="voice17">Product list</div>
-            </div>
-            <div className="layoutmenu-voicesdesktop18">
-              <div className="voice17">Phase monitoring</div>
-            </div>
-            <div className="layoutmenu-voicesdesktop18">
-              <div className="voice17">My certificates</div>
-            </div>
+          <div className="layoutmenu-voicesdesktop17">
+                <div className="voice12" onClick={() => navigate('/holder-s1')}>Homepage</div>
+                <div className="highlight8" />
+
+              </div>
+              <div className="layoutmenu-voicesdesktop13">
+                <div className="voice12" onClick={() => navigate('/holder-s2')}>Product list</div>
+              </div>
+              <div className="layoutmenu-voicesdesktop12">
+                <div className="voice12" onClick={() => navigate('/holder-s3')}>DDT List</div>
+              </div>
+              <div className="layoutmenu-voicesdesktop12">
+                <div className="voice12">Phase Monitoring</div>
+              </div>
+              <div className="layoutmenu-voicesdesktop12">
+                <div className="voice12">My certificates</div>
+              </div>
             <div className="layoutmenu-voicesdesktop18">
               <div className="voice21">Settings</div>
             </div>
@@ -665,7 +674,7 @@ const Holder1: FunctionComponent = () => {
             </div>
           </div>
         </div>
-        <b className="view-all1">VIEW ALL</b>
+        <b className="view-all1" onClick={() => navigate('/holder-s2')}>VIEW ALL</b>
       </div>
       <div className="frame-parent8">
         <div className="vector-parent">

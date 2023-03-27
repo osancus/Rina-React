@@ -2,10 +2,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Rational+Display:wght@400;500;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;600;700&display=swap");
+
+@font-face {
+  font-family: "Rational Display";
+  /*Can be any text*/
+  src: local("Rational Display"),
+    url("./font/RationalDisplay-Book.ttf") format("truetype");
+}
+
 body {
+  font-family: "Rational Display";
   margin: 0;
   line-height: normal;
 }
+
 :root {
   /* fonts */
   --h300: "Rational Display";

@@ -1,7 +1,10 @@
 import { FunctionComponent } from "react";
+import { useNavigate } from 'react-router-dom';
 import "./VerifierAnonimo.css";
+import Dropdown from '../components/Dropdown'
 
 const VerifierAnonimo: FunctionComponent = () => {
+  const navigate = useNavigate();
   return (
     <div className="verifier-anonimo">
       <div className="desktop-full-responsive-butt-parent4">
@@ -417,10 +420,11 @@ const VerifierAnonimo: FunctionComponent = () => {
             />
           </div>
           <img className="vector-icon18" alt="" src="/vector3.svg" />
-          <div className="login-container">
-            <div className="login2">LOGIN</div>
-            <img className="vector-icon19" alt="" src="/vector1.svg" />
-          </div>
+          {/* <div className="login-container"> */}
+          {/* <div className="login2">LOGIN</div> */}
+          <Dropdown className="login-container" value="LOGIN" />
+          {/* <img className="vector-icon19" alt="" src="/vector1.svg" /> */}
+          {/* </div>   */}
         </div>
         <div className="logo-menu7">
           <img className="rina-logo7" alt="" src="/rina--logo7.svg" />
@@ -468,31 +472,32 @@ const VerifierAnonimo: FunctionComponent = () => {
         <div className="lorem-ipsum37">Lorem ipsum</div>
         <div className="lorem">Lorem</div>
       </div>
-      <div className="search-field-large-with-sh1">
-        <div className="search-bar1">
-          <div className="statusdefault1">
-            <div className="main-field2">
-              <div className="text12">
-                <div className="left-content7">
+      <div className="search-field-large-with-sh">
+        <div className="search-bar">
+          <div className="statusdefault">
+            <div className="main-field1">
+              <div className="text11">
+                <div className="left-content1">
                   <img
-                    className="navigation-chevron-expand14"
+                    className="navigation-chevron-expand12"
                     alt=""
                     src="/icon13.svg"
                   />
-                  <div className="testo-da-cercare1">
-                    Search by trasportation document number or product ID number
-                  </div>
+                  <input className="testo-da-cercare" type="text" placeholder="Search by transport number or product ID number" />
+                  {/* <div className="testo-da-cercare">
+                    Search by transport number or product ID number
+                  </div> */}
                 </div>
-                <div className="right-content3">
-                  <img className="icon81" alt="" src="/icon14.svg" />
-                  <div className="container29">
+                <div className="right-content1">
+                  <img className="icon65" alt="" src="/icon14.svg" />
+                  <div className="container24">
                     <img
-                      className="number-input-arrows4"
+                      className="number-input-arrows2"
                       alt=""
                       src="/number-input--arrows.svg"
                     />
                     <img
-                      className="number-input-arrows5"
+                      className="number-input-arrows3"
                       alt=""
                       src="/number-input--arrows1.svg"
                     />
@@ -500,16 +505,16 @@ const VerifierAnonimo: FunctionComponent = () => {
                 </div>
               </div>
             </div>
-            <div className="helper-text2">*Helper text</div>
-            <div className="focus-outline2" />
-            <div className="label194">
-              <div className="login2">Label</div>
-              <div className="info-tooltip2">
-                <div className="standard-tooltip1">
-                  <div className="login2">Info Tooltip</div>
+            <div className="helper-text1">*Helper text</div>
+            <div className="focus-outline1" />
+            <div className="label158">
+              <div className="pipe-factory-lorem2">Label</div>
+              <div className="info-tooltip">
+                <div className="standard-tooltip">
+                  <div className="pipe-factory-lorem2">Info Tooltip</div>
                 </div>
                 <img
-                  className="general-info-circle1"
+                  className="general-info-circle"
                   alt=""
                   src="/general--info-circle.svg"
                 />
@@ -517,146 +522,147 @@ const VerifierAnonimo: FunctionComponent = () => {
             </div>
           </div>
         </div>
-        <div className="search-list1">
-          <div className="master-mobile-dropdownful1">
-            <div className="container32">
-              <div className="list-container16">
-                <div className="list-frame">
-                  <div className="list33">
-                    <div className="search-list-item-avatar2">
-                      <div className="txtleft-icon140">
-                        <div className="image17">
-                          <div className="master9">
-                            <div className="master-container9">
+        <input className="search-bar" type="text" placeholder="Search by2 transport document number or product ID number" />
+        <div className="search-list">
+          <div className="master-mobile-dropdownful">
+            <div className="container27">
+              <div className="list-container13">
+                <div className="list-wrapper">
+                  <div className="list28">
+                    <div className="search-list-item-avatar">
+                      <div className="txtleft-icon120">
+                        <div className="general-file">
+                          <div className="master6">
+                            <div className="master-container6">
                               <img
-                                className="image-icon9"
+                                className="image-icon6"
                                 alt=""
-                                src="/image10.svg"
+                                src="/image7.svg"
                               />
                               <img
-                                className="icon79"
+                                className="icon63"
                                 alt=""
-                                src="/icon22.svg"
+                                src="/icon15.svg"
                               />
-                              <div className="letter9">
+                              <div className="letter6">
                                 <img
-                                  className="image-icon9"
+                                  className="image-icon6"
                                   alt=""
                                   src="/portrait1.svg"
                                 />
-                                <div className="mr10">MR</div>
+                                <div className="mr7">MR</div>
                               </div>
-                              <div className="overlay9" />
+                              <div className="overlay6" />
                             </div>
                             <img
-                              className="focus-outline-icon9"
+                              className="focus-outline-icon6"
                               alt=""
                               src="/focus-outline1.svg"
                             />
                             <img
-                              className="user-presence-icon9"
+                              className="user-presence-icon6"
                               alt=""
                               src="/user-presence1.svg"
                             />
                           </div>
                         </div>
-                        <div className="list-item5">
+                        <div className="list-item">
                           <b>P</b>
-                          <span className="aola1">{`aola `}</span>
+                          <span className="aola">{`aola `}</span>
                           <b>P</b>
-                          <span className="aola1">istoia</span>
+                          <span className="aola">istoia</span>
                         </div>
                       </div>
-                      <div className="label196">PROFILO</div>
+                      <div className="label160">PROFILO</div>
                     </div>
-                    <div className="search-list-item-avatar2">
-                      <div className="txtleft-icon140">
-                        <div className="image17">
-                          <div className="master9">
-                            <div className="master-container9">
+                    <div className="search-list-item-avatar">
+                      <div className="txtleft-icon120">
+                        <div className="general-file">
+                          <div className="master6">
+                            <div className="master-container6">
                               <img
-                                className="image-icon9"
+                                className="image-icon6"
                                 alt=""
-                                src="/image11.svg"
+                                src="/image8.svg"
                               />
                               <img
-                                className="icon79"
+                                className="icon63"
                                 alt=""
-                                src="/icon23.svg"
+                                src="/icon16.svg"
                               />
-                              <div className="letter9">
+                              <div className="letter6">
                                 <img
-                                  className="image-icon9"
+                                  className="image-icon6"
                                   alt=""
                                   src="/portrait1.svg"
                                 />
-                                <div className="mr10">MR</div>
+                                <div className="mr7">MR</div>
                               </div>
-                              <div className="overlay9" />
+                              <div className="overlay6" />
                             </div>
                             <img
-                              className="focus-outline-icon9"
+                              className="focus-outline-icon6"
                               alt=""
                               src="/focus-outline1.svg"
                             />
                             <img
-                              className="user-presence-icon9"
+                              className="user-presence-icon6"
                               alt=""
                               src="/user-presence1.svg"
                             />
                           </div>
                         </div>
-                        <div className="list-item5">
+                        <div className="list-item">
                           <b>P</b>
-                          <span className="aola1">ierluigi Rossi</span>
+                          <span className="aola">ierluigi Rossi</span>
                         </div>
                       </div>
-                      <div className="label196">PROFILO</div>
+                      <div className="label160">PROFILO</div>
                     </div>
-                    <div className="search-list-item-icon3">
-                      <div className="txtleft-icon140">
+                    <div className="search-list-item-icon">
+                      <div className="txtleft-icon120">
                         <img
-                          className="image17"
+                          className="general-file"
                           alt=""
                           src="/general--file.svg"
                         />
-                        <div className="testo-da-cercare1">
+                        <div className="testo-da-cercare">
                           <span>Guida a 18 a</span>
-                          <b className="pp1">pp</b>
+                          <b className="pp">pp</b>
                           <span> per gli esercenti</span>
                         </div>
                       </div>
-                      <div className="label198">DOCUMENTO</div>
+                      <div className="label162">DOCUMENTO</div>
                     </div>
-                    <div className="search-list-item-icon3">
-                      <div className="txtleft-icon140">
+                    <div className="search-list-item-icon">
+                      <div className="txtleft-icon120">
                         <img
-                          className="image17"
+                          className="general-file"
                           alt=""
                           src="/general--pa.svg"
                         />
-                        <div className="testo-da-cercare1">
+                        <div className="testo-da-cercare">
                           <span>{`Comune di `}</span>
-                          <b className="pp1">P</b>
+                          <b className="pp">P</b>
                           <span>isa</span>
                         </div>
                       </div>
-                      <div className="label198">AMMINISTRAZIONE</div>
+                      <div className="label162">AMMINISTRAZIONE</div>
                     </div>
-                    <div className="search-list-item-icon3">
-                      <div className="txtleft-icon140">
+                    <div className="search-list-item-icon">
+                      <div className="txtleft-icon120">
                         <img
-                          className="image17"
+                          className="general-file"
                           alt=""
                           src="/general--file.svg"
                         />
-                        <div className="testo-da-cercare1">
+                        <div className="testo-da-cercare">
                           <span>{`Linee guida per i cataloghi della `}</span>
-                          <b className="pp1">p</b>
+                          <b className="pp">p</b>
                           <span>ubblica amministrazione</span>
                         </div>
                       </div>
-                      <div className="label198">DOCUMENTO</div>
+                      <div className="label162">DOCUMENTO</div>
                     </div>
                   </div>
                 </div>
@@ -665,7 +671,208 @@ const VerifierAnonimo: FunctionComponent = () => {
           </div>
         </div>
       </div>
-      <div className="primary-filled-mini-text-o5">
+
+      <div className="search-field-large-with-sh-2">
+        <div className="search-bar">
+          <div className="statusdefault">
+            <div className="main-field1">
+              <div className="text11">
+                <div className="left-content1">
+                  <img
+                    className="navigation-chevron-expand12"
+                    alt=""
+                    src="/icon13.svg"
+                  />
+                  <input className="testo-da-cercare-2" type="text" placeholder="Enter VAT number" />
+                  {/* <div className="testo-da-cercare">
+                    Search by transport number or product ID number
+                  </div> */}
+                </div>
+                <div className="right-content1">
+                  <img className="icon65" alt="" src="/icon14.svg" />
+                  <div className="container24">
+                    <img
+                      className="number-input-arrows2"
+                      alt=""
+                      src="/number-input--arrows.svg"
+                    />
+                    <img
+                      className="number-input-arrows3"
+                      alt=""
+                      src="/number-input--arrows1.svg"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="helper-text1">*Helper text</div>
+            <div className="focus-outline1" />
+            <div className="label158">
+              <div className="pipe-factory-lorem2">Label</div>
+              <div className="info-tooltip">
+                <div className="standard-tooltip">
+                  <div className="pipe-factory-lorem2">Info Tooltip</div>
+                </div>
+                <img
+                  className="general-info-circle"
+                  alt=""
+                  src="/general--info-circle.svg"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <input className="search-bar" type="text" placeholder="Search by2 transport document number or product ID number" />
+        <div className="search-list">
+          <div className="master-mobile-dropdownful">
+            <div className="container27">
+              <div className="list-container13">
+                <div className="list-wrapper">
+                  <div className="list28">
+                    <div className="search-list-item-avatar">
+                      <div className="txtleft-icon120">
+                        <div className="general-file">
+                          <div className="master6">
+                            <div className="master-container6">
+                              <img
+                                className="image-icon6"
+                                alt=""
+                                src="/image7.svg"
+                              />
+                              <img
+                                className="icon63"
+                                alt=""
+                                src="/icon15.svg"
+                              />
+                              <div className="letter6">
+                                <img
+                                  className="image-icon6"
+                                  alt=""
+                                  src="/portrait1.svg"
+                                />
+                                <div className="mr7">MR</div>
+                              </div>
+                              <div className="overlay6" />
+                            </div>
+                            <img
+                              className="focus-outline-icon6"
+                              alt=""
+                              src="/focus-outline1.svg"
+                            />
+                            <img
+                              className="user-presence-icon6"
+                              alt=""
+                              src="/user-presence1.svg"
+                            />
+                          </div>
+                        </div>
+                        <div className="list-item">
+                          <b>P</b>
+                          <span className="aola">{`aola `}</span>
+                          <b>P</b>
+                          <span className="aola">istoia</span>
+                        </div>
+                      </div>
+                      <div className="label160">PROFILO</div>
+                    </div>
+                    <div className="search-list-item-avatar">
+                      <div className="txtleft-icon120">
+                        <div className="general-file">
+                          <div className="master6">
+                            <div className="master-container6">
+                              <img
+                                className="image-icon6"
+                                alt=""
+                                src="/image8.svg"
+                              />
+                              <img
+                                className="icon63"
+                                alt=""
+                                src="/icon16.svg"
+                              />
+                              <div className="letter6">
+                                <img
+                                  className="image-icon6"
+                                  alt=""
+                                  src="/portrait1.svg"
+                                />
+                                <div className="mr7">MR</div>
+                              </div>
+                              <div className="overlay6" />
+                            </div>
+                            <img
+                              className="focus-outline-icon6"
+                              alt=""
+                              src="/focus-outline1.svg"
+                            />
+                            <img
+                              className="user-presence-icon6"
+                              alt=""
+                              src="/user-presence1.svg"
+                            />
+                          </div>
+                        </div>
+                        <div className="list-item">
+                          <b>P</b>
+                          <span className="aola">ierluigi Rossi</span>
+                        </div>
+                      </div>
+                      <div className="label160">PROFILO</div>
+                    </div>
+                    <div className="search-list-item-icon">
+                      <div className="txtleft-icon120">
+                        <img
+                          className="general-file"
+                          alt=""
+                          src="/general--file.svg"
+                        />
+                        <div className="testo-da-cercare">
+                          <span>Guida a 18 a</span>
+                          <b className="pp">pp</b>
+                          <span> per gli esercenti</span>
+                        </div>
+                      </div>
+                      <div className="label162">DOCUMENTO</div>
+                    </div>
+                    <div className="search-list-item-icon">
+                      <div className="txtleft-icon120">
+                        <img
+                          className="general-file"
+                          alt=""
+                          src="/general--pa.svg"
+                        />
+                        <div className="testo-da-cercare">
+                          <span>{`Comune di `}</span>
+                          <b className="pp">P</b>
+                          <span>isa</span>
+                        </div>
+                      </div>
+                      <div className="label162">AMMINISTRAZIONE</div>
+                    </div>
+                    <div className="search-list-item-icon">
+                      <div className="txtleft-icon120">
+                        <img
+                          className="general-file"
+                          alt=""
+                          src="/general--file.svg"
+                        />
+                        <div className="testo-da-cercare">
+                          <span>{`Linee guida per i cataloghi della `}</span>
+                          <b className="pp">p</b>
+                          <span>ubblica amministrazione</span>
+                        </div>
+                      </div>
+                      <div className="label162">DOCUMENTO</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+ 
+      <div className="primary-filled-mini-text-o4-2">
         <div className="master-button5">
           <img
             className="document-iconstext-style10"
@@ -688,6 +895,25 @@ const VerifierAnonimo: FunctionComponent = () => {
         />
         <div className="select-date1">Select date</div>
         <div className="right-content4" />
+      </div>
+      <div className="primary-filled-mini-text-o4-2">
+        <div className="master-button4"
+          onClick={() => {
+            navigate('/details')
+          }}
+        >
+          <img
+            className="document-iconstext-style8"
+            alt=""
+            src="/document-iconstextstyle3.svg"
+          />
+          <div className="label-text4">Go</div>
+          <img
+            className="document-iconstext-style8"
+            alt=""
+            src="/document-iconstextstyle3.svg"
+          />
+        </div>
       </div>
     </div>
   );
