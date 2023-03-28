@@ -429,25 +429,25 @@ const Holder1: FunctionComponent = () => {
         </div>
         <div className="logo-menu5">
           <img className="rina-logo5" alt="" src="/rina--logo5.svg" />
-          
-          <div className="men5">
-          <div className="layoutmenu-voicesdesktop17">
-                <div className="voice12" onClick={() => navigate('/holder-s1')}>Homepage</div>
-                <div className="highlight8" />
 
-              </div>
-              <div className="layoutmenu-voicesdesktop13">
-                <div className="voice12" onClick={() => navigate('/holder-s2')}>Product list</div>
-              </div>
-              <div className="layoutmenu-voicesdesktop12">
-                <div className="voice12" onClick={() => navigate('/holder-s3')}>DDT List</div>
-              </div>
-              <div className="layoutmenu-voicesdesktop12">
-                <div className="voice12">Phase Monitoring</div>
-              </div>
-              <div className="layoutmenu-voicesdesktop12">
-                <div className="voice12">My certificates</div>
-              </div>
+          <div className="men5">
+            <div className="layoutmenu-voicesdesktop17">
+              <div className="voice12" onClick={() => navigate('/holder-s1')}>Homepage</div>
+              <div className="highlight8" />
+
+            </div>
+            <div className="layoutmenu-voicesdesktop13">
+              <div className="voice12" onClick={() => navigate('/holder-s2')}>Product list</div>
+            </div>
+            <div className="layoutmenu-voicesdesktop12">
+              <div className="voice12" onClick={() => navigate('/holder-s3')}>DDT List</div>
+            </div>
+            <div className="layoutmenu-voicesdesktop12">
+              <div className="voice12">Phase Monitoring</div>
+            </div>
+            <div className="layoutmenu-voicesdesktop12">
+              <div className="voice12">My certificates</div>
+            </div>
             <div className="layoutmenu-voicesdesktop18">
               <div className="voice21">Settings</div>
             </div>
@@ -543,7 +543,7 @@ const Holder1: FunctionComponent = () => {
           <div className="desktop-horizontal-top1">
             <div className="content3">
               <img className="placeholder-exagon195" alt="" src="/icon11.svg" />
-              <div className="steel-mill-lorem1">Last week</div>
+              {/* <div className="steel-mill-lorem1">Last week</div> */}
             </div>
             <div className="border-bottom1" />
           </div>
@@ -608,6 +608,9 @@ const Holder1: FunctionComponent = () => {
         <div className="div25">04</div>
         <div className="div26">07</div>
       </div>
+
+
+
       <div className="product-list-preview-parent">
         <div className="product-list-preview">Product list preview</div>
         <div className="frame-child8" />
@@ -676,6 +679,14 @@ const Holder1: FunctionComponent = () => {
         </div>
         <b className="view-all1" onClick={() => navigate('/holder-s2')}>VIEW ALL</b>
       </div>
+
+
+
+
+
+
+
+
       <div className="frame-parent8">
         <div className="vector-parent">
           <img className="rectangle-icon" alt="" src="/rectangle-90.svg" />

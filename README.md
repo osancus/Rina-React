@@ -1,5 +1,5 @@
 
-  # RINA-Test 2
+  # RINA-Test
 
   Note: Please ensure you have installed <code><a href="https://nodejs.org/en/download/">nodejs</a></code>
 

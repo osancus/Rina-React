@@ -1,9 +1,37 @@
-import { FunctionComponent } from "react";
+import { FunctionComponent, useState } from "react";
+import { Button, Modal, ModalHeader, ModalBody, ModalFooter } from "reactstrap";
 import { useNavigate } from 'react-router-dom';
 import Dropdown from '../components/Dropdown'
 import "./HolderAnonimoDetail2.css";
 
 const HolderAnonimoDetail2: FunctionComponent = () => {
+  const [modal, setModal] = useState(false);
+
+  const toggle = () => {
+    try {
+      setModal(!modal);
+      let i = 1;
+      let id = setInterval(() => {
+        // try 
+        const l: HTMLElement | any = document.getElementById('l' + i);
+        const f: HTMLElement | any = document.getElementById('f' + i);
+        if (l)
+          l.style.display = "none";
+
+        if (f)
+          f.textContent = "✅";
+
+        i = i + 1;
+        if (i === 8) {
+          clearInterval(id);
+        }
+
+      }, 300);
+    } catch (error) {
+
+    }
+
+  }
   const navigate = useNavigate();
   return (
     <div className="verifier-anonimo-detail2">
@@ -715,7 +743,58 @@ const HolderAnonimoDetail2: FunctionComponent = () => {
         </div>
       </div>
       <div className="primary-filled-mini-text-o2">
-        <div className="master-button2">
+        <Modal isOpen={modal} toggle={toggle}>
+          <ModalHeader toggle={toggle}>Check Certificate</ModalHeader>
+          <ModalBody>
+            <div className="container">
+              <div className="panel panel-default" style={{ width: "100%" }}>
+
+                <ul id="list" className="list-group">
+                  <li className="list-group-item"><span className="badge">
+                    <div id="l1" className="loadingSpinner"></div>
+                    <div id="f1"></div>
+
+                  </span>
+
+                    Issued on {new Date().toISOString().split('T')[0]}<span id="date1"></span></li>
+
+                  <li className="list-group-item"><span className="badge">
+                    <div id="l2" className="loadingSpinner"></div>
+                    <div id="f2"></div>
+                  </span>Issued by Infocert</li>
+                  <li className="list-group-item"><span className="badge">
+                    <div id="l3" className="loadingSpinner"></div>
+                    <div id="f3"></div>
+                  </span>Issued using Dizme</li>
+                  <li className="list-group-item"><span className="badge">
+                    <div id="l4" className="loadingSpinner"></div>
+                    <div id="f4"></div>
+                  </span>Issued to User</li>
+                  <li className="list-group-item"><span className="badge">
+                    <div id="l5" className="loadingSpinner"></div>
+                    <div id="f5"></div>
+                  </span>Accepted on {new Date().toISOString().split('T')[0]}<span id="date2"></span></li>
+                  <li className="list-group-item"><span className="badge">
+                    <div id="l6" className="loadingSpinner"></div>
+                    <div id="f6"></div>
+                  </span>Last Updated {new Date().toISOString().split('T')[0]}<span id="date3"></span></li>
+                  <li className="list-group-item"><span className="badge">
+                    <div id="l7" className="loadingSpinner"></div>
+                    <div id="f7"></div>
+                  </span><b>VERIFIED</b></li>
+                </ul>
+              </div>
+
+
+            </div>
+          </ModalBody>
+          <ModalFooter>
+            <Button color="primary" onClick={toggle}>
+              Done
+            </Button>
+          </ModalFooter>
+        </Modal>
+        <div className="master-button2" onClick={toggle}>
           <img
             className="document-iconstext-style4"
             alt=""

@@ -1,0 +1,221 @@
+{
+    "productData": [
+        {
+            "product_id": "ID 0001",
+            "prod_details": [
+                {
+                    "name": "Steel Bar",
+                    "short_name": "sbar",
+                    "type": "object",
+                    "description": "A bar made of steel, iron, cooper, wood and what so not..."
+                }
+            ],
+            "prod_phases": [
+                "ph1",
+                "ph2"
+            ],
+            "dispatched_to": "Pipe Factory",
+            "weight": "456",
+            "carbon_footprint": "0.5",
+            "ddt": "10/03/2023",
+            "ddt_number": "12345",
+            "carbon_credit": [
+                "Cred1",
+                "Cred2"
+            ],
+            "verification_date": "23/03/2023",
+            "credits": "20 credits",
+            "verification_number": "10303030",
+            "seller": "Still mill s.p.a",
+            "cfp": "10/20"
+        },
+        {
+            "product_id": "ID 0002",
+            "prod_details": [
+                {
+                    "name": "Steel Bar",
+                    "short_name": "sbar",
+                    "type": "object",
+                    "description": "A bar made of steel"
+                }
+            ],
+            "prod_phases": [
+                "ph1",
+                "ph2"
+            ],
+            "dispatched_to": "Pipe Factory",
+            "weight": "456",
+            "carbon_footprint": "",
+            "ddt": "10/03/2023",
+            "ddt_number": "45678",
+            "carbon_credit": [
+                "Cred1",
+                "Cred2"
+            ],
+            "verification_date": "23/03/2023",
+            "credits": "30 credits",
+            "verification_number": "10404040",
+            "seller": "Still mill SPA",
+            "cfp": "40/60"
+        },
+        {
+            "product_id": "ID 0003",
+            "prod_details": [
+                {
+                    "name": "Steel Bar",
+                    "short_name": "sbar",
+                    "type": "object",
+                    "description": "A bar made of steel"
+                }
+            ],
+            "prod_phases": [
+                "ph1",
+                "ph2"
+            ],
+            "dispatched_to": "Pipe Factory",
+            "weight": "456",
+            "carbon_footprint": "0.5",
+            "ddt": "10/03/2023",
+            "carbon_credit": [
+                "Cred1",
+                "Cred2"
+            ],
+            "verification_date": "23/03/2023",
+            "credits": "50 credits"
+        },
+        {
+            "product_id": "ID 0004",
+            "prod_details": [
+                {
+                    "name": "Steel Bar",
+                    "short_name": "sbar",
+                    "type": "object",
+                    "description": "A bar made of steel"
+                }
+            ],
+            "prod_phases": [
+                "ph1",
+                "ph2"
+            ],
+            "dispatched_to": "Pipe Factory",
+            "weight": "456",
+            "carbon_footprint": "0.5",
+            "ddt": "10/03/2023",
+            "carbon_credit": [
+                "Cred1",
+                "Cred2"
+            ],
+            "verification_date": "23/03/2023",
+            "credits": "60 credits"
+        },
+        {
+            "product_id": "ID 0005",
+            "prod_details": [
+                {
+                    "name": "Steel Bar",
+                    "short_name": "sbar",
+                    "type": "object",
+                    "description": "A bar made of steel"
+                }
+            ],
+            "prod_phases": [
+                "ph1",
+                "ph2"
+            ],
+            "dispatched_to": "Pipe Factory",
+            "weight": "456",
+            "carbon_footprint": "0.5",
+            "ddt": "10/03/2023",
+            "carbon_credit": [
+                "Cred1",
+                "Cred2"
+            ],
+            "verification_date": "23/03/2023",
+            "credits": "80 credits"
+        }
+    ],
+    "ddtList": [
+        {
+            "ddt_number": "DDT 1040506070",
+            "dtt_date": "02/02/2020",
+            "address": "via brendana 10, 16100 genova",
+            "type": "Metal Scheet",
+            "received_from": "Still Mill Lorem",
+            "delivered_date": "01/02/2020",
+            "co2": "20 kg",
+            "verification_date": "02/03/2022",
+            "productData": [
+                {
+                    "product_id": "ID 0001",
+                    "prod_details": [
+                        {
+                            "name": "Steel Bar",
+                            "short_name": "sbar",
+                            "type": "object",
+                            "description": "A bar made of steel, iron, cooper, wood and what so not..."
+                        }
+                    ],
+                    "prod_phases": [
+                        "ph1",
+                        "ph2"
+                    ],
+                    "dispatched_to": "Pipe Factory",
+                    "weight": "456",
+                    "carbon_footprint": "0.5",
+                    "ddt": "10/03/2023",
+                    "ddt_number": "12345",
+                    "carbon_credit": [
+                        "Cred1",
+                        "Cred2"
+                    ],
+                    "verification_date": "23/03/2023",
+                    "credits": "20 credits",
+                    "verification_number": "10303030",
+                    "seller": "Still mill s.p.a",
+                    "cfp": "10/20"
+                }
+            ]
+        },
+        {
+            "ddt_number": "DDT 20406080",
+            "dtt_date": "02/02/2020",
+            "address": "via brendana 10, 16100 genova",
+            "type": "Emissions",
+            "received_from": "Hollywood",
+            "delivered_date": "01/02/2020",
+            "co2": "30 kg",
+            "verification_date": "02/03/2022",
+            "productData": [
+                {
+                    "product_id": "ID 0001",
+                    "prod_details": [
+                        {
+                            "name": "Steel Bar",
+                            "short_name": "sbar",
+                            "type": "object",
+                            "description": "A bar made of steel, iron, cooper, wood and what so not..."
+                        }
+                    ],
+                    "prod_phases": [
+                        "ph1",
+                        "ph2"
+                    ],
+                    "dispatched_to": "Pipe Factory",
+                    "weight": "456",
+                    "carbon_footprint": "0.5",
+                    "ddt": "10/03/2023",
+                    "ddt_number": "12345",
+                    "carbon_credit": [
+                        "Cred1",
+                        "Cred2"
+                    ],
+                    "verification_date": "23/03/2023",
+                    "credits": "20 credits",
+                    "verification_number": "10303030",
+                    "seller": "Still mill s.p.a",
+                    "cfp": "10/20"
+                }
+            ]
+        }
+    ]
+}

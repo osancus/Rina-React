@@ -4,7 +4,7 @@ import Dropdown from "../components/Dropdown";
 import { Button, Modal, ModalHeader, ModalBody, ModalFooter } from "reactstrap";
 import "./VerifierAnonimoDetail.css";
 
-const VerifierAnonimoDetail: FunctionComponent = () => {
+const HolderAnonimoDetail: FunctionComponent = () => {
   const navigate = useNavigate();
   const [modal, setModal] = useState(false);
 
@@ -263,7 +263,7 @@ const VerifierAnonimoDetail: FunctionComponent = () => {
             <img className="navigation-chevron-expand2" alt="" src="/vector.svg" />
           </div>
           <img className="frame-item" alt="" src="/group-80.svg" />
-          <Dropdown className="login-container" value="VERIFIER" />
+          <Dropdown className="login-container" value="HOLDER" />
           {/* <div className="pipe-factory-lorem-group">
             <div className="pipe-factory-lorem1">VERIFIER</div>
             <img className="vector-icon3" alt="" src="/vector1.svg" />
@@ -274,17 +274,17 @@ const VerifierAnonimoDetail: FunctionComponent = () => {
         <img className="rina-logo1" alt="" src="/rina--logo1.svg" />
         <div className="men1">
           <div className="layoutmenu-voicesdesktop22">
-            <div className="voice12" onClick={() => navigate("/verifier-s1")}>
+            <div className="voice12" onClick={() => navigate("/holder-s1")}>
               Homepage
             </div>
           </div>
           <div className="layoutmenu-voicesdesktop13">
-            <div className="voice12" onClick={() => navigate("/verifier-s2")}>
+            <div className="voice12" onClick={() => navigate("/holder-s2")}>
               Product list
             </div>
           </div>
           <div className="layoutmenu-voicesdesktop12">
-            <div className="voice12" onClick={() => navigate("/verifier-s3")}>
+            <div className="voice12" onClick={() => navigate("/holder-s3")}>
               DDT List
             </div>
             <div className="highlight8" />
@@ -629,4 +629,4 @@ const VerifierAnonimoDetail: FunctionComponent = () => {
   );
 };
 
-export default VerifierAnonimoDetail;
+export default HolderAnonimoDetail;

@@ -455,433 +455,642 @@ const VerifierLog1: FunctionComponent = () => {
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.
       </div>
-      <div className="search-field-large-with-sh">
-        <div className="search-bar">
-          <div className="statusdefault">
-            <div className="main-field1">
-              <div className="text11">
-                <div className="left-content1">
-                  <img
-                    className="navigation-chevron-expand12"
-                    alt=""
-                    src="/icon13.svg"
-                  />
-                  <input className="testo-da-cercare" type="text" placeholder="Search by transport number or product ID number" />
-                  {/* <div className="testo-da-cercare">
-                    Search by transport number or product ID number
-                  </div> */}
+
+
+
+
+
+
+      <div className="row">
+
+        <div className="col-3 search-field-large-with-sh" style={{ position: "relative" }}>
+          <div className="search-bar">
+            <div className="statusdefault">
+              <div className="main-field1">
+                <div className="text11">
+                  <div className="left-content1">
+                    <img
+                      className="navigation-chevron-expand12"
+                      alt=""
+                      src="/icon13.svg"
+                    />
+                    <input className="testo-da-cercare" style={{ width: "75%" }} type="text" placeholder="Search" />
+                    {/* <div className="testo-da-cercare">
+            Search by transport number or product ID number
+          </div> */}
+                  </div>
+                  <div className="right-content1">
+                    <img className="icon65" alt="" src="/icon14.svg" />
+                    <div className="container24">
+                      <img
+                        className="number-input-arrows2"
+                        alt=""
+                        src="/number-input--arrows.svg"
+                      />
+                      <img
+                        className="number-input-arrows3"
+                        alt=""
+                        src="/number-input--arrows1.svg"
+                      />
+                    </div>
+                  </div>
                 </div>
-                <div className="right-content1">
-                  <img className="icon65" alt="" src="/icon14.svg" />
-                  <div className="container24">
-                    <img
-                      className="number-input-arrows2"
-                      alt=""
-                      src="/number-input--arrows.svg"
-                    />
-                    <img
-                      className="number-input-arrows3"
-                      alt=""
-                      src="/number-input--arrows1.svg"
-                    />
+              </div>
+              <div className="helper-text1">*Helper text</div>
+              <div className="focus-outline1" />
+              <div className="label158">
+                <div className="pipe-factory-lorem2">Label</div>
+                <div className="info-tooltip">
+                  <div className="standard-tooltip">
+                    <div className="pipe-factory-lorem2">Info Tooltip</div>
+                  </div>
+                  <img
+                    className="general-info-circle"
+                    alt=""
+                    src="/general--info-circle.svg"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+
+          <input className="search-bar" type="text" placeholder="Search by2 transport document number or product ID number" />
+          <div className="search-list">
+            <div className="master-mobile-dropdownful">
+              <div className="container27">
+                <div className="list-container13">
+                  <div className="list-wrapper">
+                    <div className="list28">
+                      <div className="search-list-item-avatar">
+                        <div className="txtleft-icon120">
+                          <div className="general-file">
+                            <div className="master6">
+                              <div className="master-container6">
+                                <img
+                                  className="image-icon6"
+                                  alt=""
+                                  src="/image7.svg"
+                                />
+                                <img
+                                  className="icon63"
+                                  alt=""
+                                  src="/icon15.svg"
+                                />
+                                <div className="letter6">
+                                  <img
+                                    className="image-icon6"
+                                    alt=""
+                                    src="/portrait1.svg"
+                                  />
+                                  <div className="mr7">MR</div>
+                                </div>
+                                <div className="overlay6" />
+                              </div>
+                              <img
+                                className="focus-outline-icon6"
+                                alt=""
+                                src="/focus-outline1.svg"
+                              />
+                              <img
+                                className="user-presence-icon6"
+                                alt=""
+                                src="/user-presence1.svg"
+                              />
+                            </div>
+                          </div>
+                          <div className="list-item">
+                            <b>P</b>
+                            <span className="aola">{`aola `}</span>
+                            <b>P</b>
+                            <span className="aola">istoia</span>
+                          </div>
+                        </div>
+                        <div className="label160">PROFILO</div>
+                      </div>
+                      <div className="search-list-item-avatar">
+                        <div className="txtleft-icon120">
+                          <div className="general-file">
+                            <div className="master6">
+                              <div className="master-container6">
+                                <img
+                                  className="image-icon6"
+                                  alt=""
+                                  src="/image8.svg"
+                                />
+                                <img
+                                  className="icon63"
+                                  alt=""
+                                  src="/icon16.svg"
+                                />
+                                <div className="letter6">
+                                  <img
+                                    className="image-icon6"
+                                    alt=""
+                                    src="/portrait1.svg"
+                                  />
+                                  <div className="mr7">MR</div>
+                                </div>
+                                <div className="overlay6" />
+                              </div>
+                              <img
+                                className="focus-outline-icon6"
+                                alt=""
+                                src="/focus-outline1.svg"
+                              />
+                              <img
+                                className="user-presence-icon6"
+                                alt=""
+                                src="/user-presence1.svg"
+                              />
+                            </div>
+                          </div>
+                          <div className="list-item">
+                            <b>P</b>
+                            <span className="aola">ierluigi Rossi</span>
+                          </div>
+                        </div>
+                        <div className="label160">PROFILO</div>
+                      </div>
+                      <div className="search-list-item-icon">
+                        <div className="txtleft-icon120">
+                          <img
+                            className="general-file"
+                            alt=""
+                            src="/general--file.svg"
+                          />
+                          <div className="testo-da-cercare">
+                            <span>Guida a 18 a</span>
+                            <b className="pp">pp</b>
+                            <span> per gli esercenti</span>
+                          </div>
+                        </div>
+                        <div className="label162">DOCUMENTO</div>
+                      </div>
+                      <div className="search-list-item-icon">
+                        <div className="txtleft-icon120">
+                          <img
+                            className="general-file"
+                            alt=""
+                            src="/general--pa.svg"
+                          />
+                          <div className="testo-da-cercare">
+                            <span>{`Comune di `}</span>
+                            <b className="pp">P</b>
+                            <span>isa</span>
+                          </div>
+                        </div>
+                        <div className="label162">AMMINISTRAZIONE</div>
+                      </div>
+                      <div className="search-list-item-icon">
+                        <div className="txtleft-icon120">
+                          <img
+                            className="general-file"
+                            alt=""
+                            src="/general--file.svg"
+                          />
+                          <div className="testo-da-cercare">
+                            <span>{`Linee guida per i cataloghi della `}</span>
+                            <b className="pp">p</b>
+                            <span>ubblica amministrazione</span>
+                          </div>
+                        </div>
+                        <div className="label162">DOCUMENTO</div>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
-            <div className="helper-text1">*Helper text</div>
-            <div className="focus-outline1" />
-            <div className="label158">
-              <div className="pipe-factory-lorem2">Label</div>
-              <div className="info-tooltip">
-                <div className="standard-tooltip">
-                  <div className="pipe-factory-lorem2">Info Tooltip</div>
+          </div>
+
+        </div>
+
+        <div className="col-3 search-field-large-with-sh" style={{ position: "relative", width: "15%" }}>
+          <div className="search-bar">
+            <div className="statusdefault">
+              <div className="main-field1">
+                <div className="text11">
+                  <div className="left-content1">
+                    <img
+                      className="navigation-chevron-expand12"
+                      alt=""
+                      src="/icon13.svg"
+                    />
+                    <input className="testo-da-cercare-2" style={{ width: "75%" }} type="text" placeholder="Enter VAT" />
+                    {/* <div className="testo-da-cercare">
+            Search by transport number or product ID number
+          </div> */}
+                  </div>
+                  <div className="right-content1">
+                    <img className="icon65" alt="" src="/icon14.svg" />
+                    <div className="container24">
+                      <img
+                        className="number-input-arrows2"
+                        alt=""
+                        src="/number-input--arrows.svg"
+                      />
+                      <img
+                        className="number-input-arrows3"
+                        alt=""
+                        src="/number-input--arrows1.svg"
+                      />
+                    </div>
+                  </div>
                 </div>
-                <img
-                  className="general-info-circle"
-                  alt=""
-                  src="/general--info-circle.svg"
-                />
+              </div>
+              <div className="helper-text1">*Helper text</div>
+              <div className="focus-outline1" />
+              <div className="label158">
+                <div className="pipe-factory-lorem2">Label</div>
+                <div className="info-tooltip">
+                  <div className="standard-tooltip">
+                    <div className="pipe-factory-lorem2">Info Tooltip</div>
+                  </div>
+                  <img
+                    className="general-info-circle"
+                    alt=""
+                    src="/general--info-circle.svg"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <input className="search-bar" type="text" placeholder="Search by2 transport document number or product ID number" />
+          <div className="search-list">
+            <div className="master-mobile-dropdownful">
+              <div className="container27">
+                <div className="list-container13">
+                  <div className="list-wrapper">
+                    <div className="list28">
+                      <div className="search-list-item-avatar">
+                        <div className="txtleft-icon120">
+                          <div className="general-file">
+                            <div className="master6">
+                              <div className="master-container6">
+                                <img
+                                  className="image-icon6"
+                                  alt=""
+                                  src="/image7.svg"
+                                />
+                                <img
+                                  className="icon63"
+                                  alt=""
+                                  src="/icon15.svg"
+                                />
+                                <div className="letter6">
+                                  <img
+                                    className="image-icon6"
+                                    alt=""
+                                    src="/portrait1.svg"
+                                  />
+                                  <div className="mr7">MR</div>
+                                </div>
+                                <div className="overlay6" />
+                              </div>
+                              <img
+                                className="focus-outline-icon6"
+                                alt=""
+                                src="/focus-outline1.svg"
+                              />
+                              <img
+                                className="user-presence-icon6"
+                                alt=""
+                                src="/user-presence1.svg"
+                              />
+                            </div>
+                          </div>
+                          <div className="list-item">
+                            <b>P</b>
+                            <span className="aola">{`aola `}</span>
+                            <b>P</b>
+                            <span className="aola">istoia</span>
+                          </div>
+                        </div>
+                        <div className="label160">PROFILO</div>
+                      </div>
+                      <div className="search-list-item-avatar">
+                        <div className="txtleft-icon120">
+                          <div className="general-file">
+                            <div className="master6">
+                              <div className="master-container6">
+                                <img
+                                  className="image-icon6"
+                                  alt=""
+                                  src="/image8.svg"
+                                />
+                                <img
+                                  className="icon63"
+                                  alt=""
+                                  src="/icon16.svg"
+                                />
+                                <div className="letter6">
+                                  <img
+                                    className="image-icon6"
+                                    alt=""
+                                    src="/portrait1.svg"
+                                  />
+                                  <div className="mr7">MR</div>
+                                </div>
+                                <div className="overlay6" />
+                              </div>
+                              <img
+                                className="focus-outline-icon6"
+                                alt=""
+                                src="/focus-outline1.svg"
+                              />
+                              <img
+                                className="user-presence-icon6"
+                                alt=""
+                                src="/user-presence1.svg"
+                              />
+                            </div>
+                          </div>
+                          <div className="list-item">
+                            <b>P</b>
+                            <span className="aola">ierluigi Rossi</span>
+                          </div>
+                        </div>
+                        <div className="label160">PROFILO</div>
+                      </div>
+                      <div className="search-list-item-icon">
+                        <div className="txtleft-icon120">
+                          <img
+                            className="general-file"
+                            alt=""
+                            src="/general--file.svg"
+                          />
+                          <div className="testo-da-cercare">
+                            <span>Guida a 18 a</span>
+                            <b className="pp">pp</b>
+                            <span> per gli esercenti</span>
+                          </div>
+                        </div>
+                        <div className="label162">DOCUMENTO</div>
+                      </div>
+                      <div className="search-list-item-icon">
+                        <div className="txtleft-icon120">
+                          <img
+                            className="general-file"
+                            alt=""
+                            src="/general--pa.svg"
+                          />
+                          <div className="testo-da-cercare">
+                            <span>{`Comune di `}</span>
+                            <b className="pp">P</b>
+                            <span>isa</span>
+                          </div>
+                        </div>
+                        <div className="label162">AMMINISTRAZIONE</div>
+                      </div>
+                      <div className="search-list-item-icon">
+                        <div className="txtleft-icon120">
+                          <img
+                            className="general-file"
+                            alt=""
+                            src="/general--file.svg"
+                          />
+                          <div className="testo-da-cercare">
+                            <span>{`Linee guida per i cataloghi della `}</span>
+                            <b className="pp">p</b>
+                            <span>ubblica amministrazione</span>
+                          </div>
+                        </div>
+                        <div className="label162">DOCUMENTO</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
-        <input className="search-bar" type="text" placeholder="Search by2 transport document number or product ID number" />
-        <div className="search-list">
-          <div className="master-mobile-dropdownful">
-            <div className="container27">
-              <div className="list-container13">
-                <div className="list-wrapper">
-                  <div className="list28">
-                    <div className="search-list-item-avatar">
-                      <div className="txtleft-icon120">
-                        <div className="general-file">
-                          <div className="master6">
-                            <div className="master-container6">
-                              <img
-                                className="image-icon6"
-                                alt=""
-                                src="/image7.svg"
-                              />
-                              <img
-                                className="icon63"
-                                alt=""
-                                src="/icon15.svg"
-                              />
-                              <div className="letter6">
+
+        <div className="col-3 search-field-large-with-sh" style={{ position: "relative", width: "15%" }}>
+          <div className="search-bar">
+            <div className="statusdefault">
+              <div className="main-field1">
+                <div className="text11">
+                  <div className="left-content1">
+                    <img
+                      className="navigation-chevron-expand12"
+                      alt=""
+                      src="/icon13.svg"
+                    />
+                    <input className="testo-da-cercare-2" style={{ width: "75%" }} type="text" placeholder="Date" />
+                    {/* <div className="testo-da-cercare">
+            Search by transport number or product ID number
+          </div> */}
+                  </div>
+                  <div className="right-content1">
+                    <img className="icon65" alt="" src="/icon14.svg" />
+                    <div className="container24">
+                      <img
+                        className="number-input-arrows2"
+                        alt=""
+                        src="/number-input--arrows.svg"
+                      />
+                      <img
+                        className="number-input-arrows3"
+                        alt=""
+                        src="/number-input--arrows1.svg"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="helper-text1">*Helper text</div>
+              <div className="focus-outline1" />
+              <div className="label158">
+                <div className="pipe-factory-lorem2">Label</div>
+                <div className="info-tooltip">
+                  <div className="standard-tooltip">
+                    <div className="pipe-factory-lorem2">Info Tooltip</div>
+                  </div>
+                  <img
+                    className="general-info-circle"
+                    alt=""
+                    src="/general--info-circle.svg"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <input className="search-bar" type="text" placeholder="Search by2 transport document number or product ID number" />
+          <div className="search-list">
+            <div className="master-mobile-dropdownful">
+              <div className="container27">
+                <div className="list-container13">
+                  <div className="list-wrapper">
+                    <div className="list28">
+                      <div className="search-list-item-avatar">
+                        <div className="txtleft-icon120">
+                          <div className="general-file">
+                            <div className="master6">
+                              <div className="master-container6">
                                 <img
                                   className="image-icon6"
                                   alt=""
-                                  src="/portrait1.svg"
+                                  src="/image7.svg"
                                 />
-                                <div className="mr7">MR</div>
+                                <img
+                                  className="icon63"
+                                  alt=""
+                                  src="/icon15.svg"
+                                />
+                                <div className="letter6">
+                                  <img
+                                    className="image-icon6"
+                                    alt=""
+                                    src="/portrait1.svg"
+                                  />
+                                  <div className="mr7">MR</div>
+                                </div>
+                                <div className="overlay6" />
                               </div>
-                              <div className="overlay6" />
+                              <img
+                                className="focus-outline-icon6"
+                                alt=""
+                                src="/focus-outline1.svg"
+                              />
+                              <img
+                                className="user-presence-icon6"
+                                alt=""
+                                src="/user-presence1.svg"
+                              />
                             </div>
-                            <img
-                              className="focus-outline-icon6"
-                              alt=""
-                              src="/focus-outline1.svg"
-                            />
-                            <img
-                              className="user-presence-icon6"
-                              alt=""
-                              src="/user-presence1.svg"
-                            />
+                          </div>
+                          <div className="list-item">
+                            <b>P</b>
+                            <span className="aola">{`aola `}</span>
+                            <b>P</b>
+                            <span className="aola">istoia</span>
                           </div>
                         </div>
-                        <div className="list-item">
-                          <b>P</b>
-                          <span className="aola">{`aola `}</span>
-                          <b>P</b>
-                          <span className="aola">istoia</span>
-                        </div>
+                        <div className="label160">PROFILO</div>
                       </div>
-                      <div className="label160">PROFILO</div>
-                    </div>
-                    <div className="search-list-item-avatar">
-                      <div className="txtleft-icon120">
-                        <div className="general-file">
-                          <div className="master6">
-                            <div className="master-container6">
-                              <img
-                                className="image-icon6"
-                                alt=""
-                                src="/image8.svg"
-                              />
-                              <img
-                                className="icon63"
-                                alt=""
-                                src="/icon16.svg"
-                              />
-                              <div className="letter6">
+                      <div className="search-list-item-avatar">
+                        <div className="txtleft-icon120">
+                          <div className="general-file">
+                            <div className="master6">
+                              <div className="master-container6">
                                 <img
                                   className="image-icon6"
                                   alt=""
-                                  src="/portrait1.svg"
+                                  src="/image8.svg"
                                 />
-                                <div className="mr7">MR</div>
+                                <img
+                                  className="icon63"
+                                  alt=""
+                                  src="/icon16.svg"
+                                />
+                                <div className="letter6">
+                                  <img
+                                    className="image-icon6"
+                                    alt=""
+                                    src="/portrait1.svg"
+                                  />
+                                  <div className="mr7">MR</div>
+                                </div>
+                                <div className="overlay6" />
                               </div>
-                              <div className="overlay6" />
+                              <img
+                                className="focus-outline-icon6"
+                                alt=""
+                                src="/focus-outline1.svg"
+                              />
+                              <img
+                                className="user-presence-icon6"
+                                alt=""
+                                src="/user-presence1.svg"
+                              />
                             </div>
-                            <img
-                              className="focus-outline-icon6"
-                              alt=""
-                              src="/focus-outline1.svg"
-                            />
-                            <img
-                              className="user-presence-icon6"
-                              alt=""
-                              src="/user-presence1.svg"
-                            />
+                          </div>
+                          <div className="list-item">
+                            <b>P</b>
+                            <span className="aola">ierluigi Rossi</span>
                           </div>
                         </div>
-                        <div className="list-item">
-                          <b>P</b>
-                          <span className="aola">ierluigi Rossi</span>
-                        </div>
+                        <div className="label160">PROFILO</div>
                       </div>
-                      <div className="label160">PROFILO</div>
-                    </div>
-                    <div className="search-list-item-icon">
-                      <div className="txtleft-icon120">
-                        <img
-                          className="general-file"
-                          alt=""
-                          src="/general--file.svg"
-                        />
-                        <div className="testo-da-cercare">
-                          <span>Guida a 18 a</span>
-                          <b className="pp">pp</b>
-                          <span> per gli esercenti</span>
+                      <div className="search-list-item-icon">
+                        <div className="txtleft-icon120">
+                          <img
+                            className="general-file"
+                            alt=""
+                            src="/general--file.svg"
+                          />
+                          <div className="testo-da-cercare">
+                            <span>Guida a 18 a</span>
+                            <b className="pp">pp</b>
+                            <span> per gli esercenti</span>
+                          </div>
                         </div>
+                        <div className="label162">DOCUMENTO</div>
                       </div>
-                      <div className="label162">DOCUMENTO</div>
-                    </div>
-                    <div className="search-list-item-icon">
-                      <div className="txtleft-icon120">
-                        <img
-                          className="general-file"
-                          alt=""
-                          src="/general--pa.svg"
-                        />
-                        <div className="testo-da-cercare">
-                          <span>{`Comune di `}</span>
-                          <b className="pp">P</b>
-                          <span>isa</span>
+                      <div className="search-list-item-icon">
+                        <div className="txtleft-icon120">
+                          <img
+                            className="general-file"
+                            alt=""
+                            src="/general--pa.svg"
+                          />
+                          <div className="testo-da-cercare">
+                            <span>{`Comune di `}</span>
+                            <b className="pp">P</b>
+                            <span>isa</span>
+                          </div>
                         </div>
+                        <div className="label162">AMMINISTRAZIONE</div>
                       </div>
-                      <div className="label162">AMMINISTRAZIONE</div>
-                    </div>
-                    <div className="search-list-item-icon">
-                      <div className="txtleft-icon120">
-                        <img
-                          className="general-file"
-                          alt=""
-                          src="/general--file.svg"
-                        />
-                        <div className="testo-da-cercare">
-                          <span>{`Linee guida per i cataloghi della `}</span>
-                          <b className="pp">p</b>
-                          <span>ubblica amministrazione</span>
+                      <div className="search-list-item-icon">
+                        <div className="txtleft-icon120">
+                          <img
+                            className="general-file"
+                            alt=""
+                            src="/general--file.svg"
+                          />
+                          <div className="testo-da-cercare">
+                            <span>{`Linee guida per i cataloghi della `}</span>
+                            <b className="pp">p</b>
+                            <span>ubblica amministrazione</span>
+                          </div>
                         </div>
+                        <div className="label162">DOCUMENTO</div>
                       </div>
-                      <div className="label162">DOCUMENTO</div>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+
+        <div className="col-3" style={{ position: "relative", left: "25px", top: "374px", width: "5%", height: "40px" }}>
+          <div className="master-button4"
+            onClick={() => {
+              navigate('/details')
+            }}
+          >
+            <img
+              className="document-iconstext-style8"
+              alt=""
+              src="/document-iconstextstyle3.svg"
+            />
+            <div className="label-text4" style={{ lineHeight: "24px" }}>Go</div>
+            <img
+              className="document-iconstext-style8"
+              alt=""
+              src="/document-iconstextstyle3.svg"
+            />
           </div>
         </div>
       </div>
 
-      <div className="search-field-large-with-sh-2">
-        <div className="search-bar">
-          <div className="statusdefault">
-            <div className="main-field1">
-              <div className="text11">
-                <div className="left-content1">
-                  <img
-                    className="navigation-chevron-expand12"
-                    alt=""
-                    src="/icon13.svg"
-                  />
-                  <input className="testo-da-cercare-2" type="text" placeholder="Enter VAT number" />
-                  {/* <div className="testo-da-cercare">
-                    Search by transport number or product ID number
-                  </div> */}
-                </div>
-                <div className="right-content1">
-                  <img className="icon65" alt="" src="/icon14.svg" />
-                  <div className="container24">
-                    <img
-                      className="number-input-arrows2"
-                      alt=""
-                      src="/number-input--arrows.svg"
-                    />
-                    <img
-                      className="number-input-arrows3"
-                      alt=""
-                      src="/number-input--arrows1.svg"
-                    />
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="helper-text1">*Helper text</div>
-            <div className="focus-outline1" />
-            <div className="label158">
-              <div className="pipe-factory-lorem2">Label</div>
-              <div className="info-tooltip">
-                <div className="standard-tooltip">
-                  <div className="pipe-factory-lorem2">Info Tooltip</div>
-                </div>
-                <img
-                  className="general-info-circle"
-                  alt=""
-                  src="/general--info-circle.svg"
-                />
-              </div>
-            </div>
-          </div>
-        </div>
-        <input className="search-bar" type="text" placeholder="Search by2 transport document number or product ID number" />
-        <div className="search-list">
-          <div className="master-mobile-dropdownful">
-            <div className="container27">
-              <div className="list-container13">
-                <div className="list-wrapper">
-                  <div className="list28">
-                    <div className="search-list-item-avatar">
-                      <div className="txtleft-icon120">
-                        <div className="general-file">
-                          <div className="master6">
-                            <div className="master-container6">
-                              <img
-                                className="image-icon6"
-                                alt=""
-                                src="/image7.svg"
-                              />
-                              <img
-                                className="icon63"
-                                alt=""
-                                src="/icon15.svg"
-                              />
-                              <div className="letter6">
-                                <img
-                                  className="image-icon6"
-                                  alt=""
-                                  src="/portrait1.svg"
-                                />
-                                <div className="mr7">MR</div>
-                              </div>
-                              <div className="overlay6" />
-                            </div>
-                            <img
-                              className="focus-outline-icon6"
-                              alt=""
-                              src="/focus-outline1.svg"
-                            />
-                            <img
-                              className="user-presence-icon6"
-                              alt=""
-                              src="/user-presence1.svg"
-                            />
-                          </div>
-                        </div>
-                        <div className="list-item">
-                          <b>P</b>
-                          <span className="aola">{`aola `}</span>
-                          <b>P</b>
-                          <span className="aola">istoia</span>
-                        </div>
-                      </div>
-                      <div className="label160">PROFILO</div>
-                    </div>
-                    <div className="search-list-item-avatar">
-                      <div className="txtleft-icon120">
-                        <div className="general-file">
-                          <div className="master6">
-                            <div className="master-container6">
-                              <img
-                                className="image-icon6"
-                                alt=""
-                                src="/image8.svg"
-                              />
-                              <img
-                                className="icon63"
-                                alt=""
-                                src="/icon16.svg"
-                              />
-                              <div className="letter6">
-                                <img
-                                  className="image-icon6"
-                                  alt=""
-                                  src="/portrait1.svg"
-                                />
-                                <div className="mr7">MR</div>
-                              </div>
-                              <div className="overlay6" />
-                            </div>
-                            <img
-                              className="focus-outline-icon6"
-                              alt=""
-                              src="/focus-outline1.svg"
-                            />
-                            <img
-                              className="user-presence-icon6"
-                              alt=""
-                              src="/user-presence1.svg"
-                            />
-                          </div>
-                        </div>
-                        <div className="list-item">
-                          <b>P</b>
-                          <span className="aola">ierluigi Rossi</span>
-                        </div>
-                      </div>
-                      <div className="label160">PROFILO</div>
-                    </div>
-                    <div className="search-list-item-icon">
-                      <div className="txtleft-icon120">
-                        <img
-                          className="general-file"
-                          alt=""
-                          src="/general--file.svg"
-                        />
-                        <div className="testo-da-cercare">
-                          <span>Guida a 18 a</span>
-                          <b className="pp">pp</b>
-                          <span> per gli esercenti</span>
-                        </div>
-                      </div>
-                      <div className="label162">DOCUMENTO</div>
-                    </div>
-                    <div className="search-list-item-icon">
-                      <div className="txtleft-icon120">
-                        <img
-                          className="general-file"
-                          alt=""
-                          src="/general--pa.svg"
-                        />
-                        <div className="testo-da-cercare">
-                          <span>{`Comune di `}</span>
-                          <b className="pp">P</b>
-                          <span>isa</span>
-                        </div>
-                      </div>
-                      <div className="label162">AMMINISTRAZIONE</div>
-                    </div>
-                    <div className="search-list-item-icon">
-                      <div className="txtleft-icon120">
-                        <img
-                          className="general-file"
-                          alt=""
-                          src="/general--file.svg"
-                        />
-                        <div className="testo-da-cercare">
-                          <span>{`Linee guida per i cataloghi della `}</span>
-                          <b className="pp">p</b>
-                          <span>ubblica amministrazione</span>
-                        </div>
-                      </div>
-                      <div className="label162">DOCUMENTO</div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div className="cerca-esploso">
-        <img
-          className="calendar-month-fill0-wght200-g-icon"
-          alt=""
-          src="/calendar-month-fill0-wght200-grad0-opsz48-1.svg"
-        />
-        <div className="select-date">Select date</div>
-        <div className="right-content2" />
-      </div>
-      <div className="primary-filled-mini-text-o4">
-        <div className="master-button4"
-          onClick={() => {
-            navigate('/verifier-s4')
-          }}
-        >
-          <img
-            className="document-iconstext-style8"
-            alt=""
-            src="/document-iconstextstyle3.svg"
-          />
-          <div className="label-text4">Go</div>
-          <img
-            className="document-iconstext-style8"
-            alt=""
-            src="/document-iconstextstyle3.svg"
-          />
-        </div>
-      </div>
+
+
       <div className="rectangle-parent">
         <div className="frame-child21" />
         <div className="frame-wrapper">
@@ -1034,6 +1243,7 @@ const VerifierLog1: FunctionComponent = () => {
         <div className="product-declared">Product declared</div>
       </div>
       <div className="last-deliveries">Last deliveries</div>
+
       <div className="layoutlistconsultant16">
         <div className="client32">
           <div className="client33">
@@ -1073,6 +1283,7 @@ const VerifierLog1: FunctionComponent = () => {
       </div>
       <div className="view-all2">View all</div>
     </div>
+
   );
 };
 

@@ -269,6 +269,9 @@
 .frame-group {
   top: 315px;
 }
+.frame-group:hover {
+  cursor: pointer;
+}
 .tag20 {
   position: absolute;
   top: 345px;
@@ -879,4 +882,18 @@
   font-size: var(--h100-size);
   color: var(--color-dimgray-100);
   font-family: var(--h300);
+}
+.product-list-group {
+  border-radius: var(--br-9xs);
+  background-color: var(--neutral-white);
+  width: 1376px;
+  height: 88px;
+  margin-top: 1rem;
+  margin-left: 5rem;
+}
+.product-list-group-top {
+  margin-top: 15rem;
+}
+.custom-color {
+  background-color: orange !important;
 }
